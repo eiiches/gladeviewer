@@ -73,7 +73,7 @@ int main(int argc, char **argv)
 	}
 
 	if (optind >= argc || !widget_name)
-		abort_with_usage("Error: GLADE_FILE or WIDGET_NAME not specified.");
+		abort_with_usage("Error: GLADE or WIDGET not specified.");
 	glade_file = argv[optind];
 
 	Glib::RefPtr<Gtk::Builder> builder = Gtk::Builder::create();
