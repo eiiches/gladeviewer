@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<interface>
+	<object class="GtkWindow" id="main_window">
+		<property name="default_width">250</property>
+		<property name="default_height">250</property>
+		<child>
+			<object class="GtkButton" id="button">
+				<property name="label">Hello, world!</property>
+				<property name="visible">True</property>
+			</object>
+		</child>
+	</object>
+</interface>

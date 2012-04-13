@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<interface>
+	<object class="GtkButton" id="button">
+		<property name="label">Hello, world!</property>
+		<property name="visible">True</property>
+	</object>
+</interface>
